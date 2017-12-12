@@ -1,5 +1,5 @@
 import MoonCountDown from './MoonCountDown.vue'
-import InfiniteScroll from './MoonInfiniteScroll.vue'
+import MoonInfiniteScroll from './MoonInfiniteScroll.vue'
 
 const CountDown = {
   install: Vue => {
