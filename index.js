@@ -11,8 +11,17 @@ const InfiniteScroll = {
     Vue.component('moon-infinite-scroll', MoonInfiniteScroll)
   }
 }
+
+const MoonUI = {
+  install: Vue => {
+    Vue.component('moon-count-down', MoonCountDown)
+    Vue.component('moon-infinite-scroll', MoonInfiniteScroll)
+  }
+}
  
-export { 
+export  { 
   CountDown,
   InfiniteScroll
 }
+
+export default MoonUI
